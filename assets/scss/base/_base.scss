@@ -1,0 +1,12 @@
+h1 a {
+    background-image: url(/assets/images/logo-white.png);
+    background-size: cover;
+    width: 80px;
+    height: 48px;
+    display: block;
+
+    /*  將文字推出 <h1>  */
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
