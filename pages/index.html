@@ -4,21 +4,208 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
+    <title>眼鏡官網</title>
   </head>
   <body>
     <%- include('./layout/header'); -%>
-
+    <header style="background: url(/assets/images/home-header.png) no-repeat center / cover;">
+      <div class="container text-end py-31 py-md-32 text-secondary">
+        <p class="fs-md-4 fs-sm-6 mb-0">Promise-Desert 2020 早春系列</p>
+        <p class="fs-md-1 fs-sm-2 fw-bold mb-2" style="font-size: 24px;">看得清，才能看得遠</p>
+        <div class="fs-7 btn btn-primary rounded-0">立即購買</div>
+      </div>
+    </header>
     <main>
-      <header style="background: url(/assets/images/home-header.png) no-repeat center / cover;">
-        <div class="container text-end py-31">
-          <p class="text-secondary fs-4">Promise-Desert 2020 早春系列</p>
-          <p class="text-secondary fs-1 fw-bold">看得清，才能看得遠</p>
-          <div class="btn btn-primary">立即購買</div>
+      <!-- Home: section 1 -->
+      <div class="bg-third py-20">
+        <div class="container">
+          <h4 class="fs-sm-4 fs-lg-2 mb-8" style="font-size: 24px;">用專業的心，做專業的事</h4>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 text-center">
+              <img class="mb-6" src="/assets/images/home-section2-1.png" style="width:84px" alt="icon">
+              <h4 class="mb-2">單一價格</h4>
+              <p class="text-start">無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 text-center">
+              <img class="mb-6" src="/assets/images/home-section2-2.png" style="width:84px" alt="icon">
+              <h4 class="mb-2">20 分鐘即可取件</h4>
+              <p class="text-start">為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 text-center">
+              <img class="mb-6" src="/assets/images/home-section2-3.png" style="width:84px" alt="icon">
+              <h4 class="mb-2">安心售後服務</h4>
+              <p class="text-start">我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 text-center">
+              <img class="mb-6" src="/assets/images/home-sectioin2-4.png" style="width:84px" alt="icon">
+              <h4 class="mb-2">關於鏡片</h4>
+              <p class="text-start">使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+            </div>
+          </div>
         </div>
-      </header>
-    </main>
+      </div>
+      <!-- Home: section 2 經典系列鏡框 -->
+      <div class="container py-20">
+        <h4 class="fs-xsm-2 mb-12">經典系列鏡框</h4>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <img class="img-fluid" src="/assets/images/home-section3-1.png" alt="picture">
+            <h3 class="mb-0 pt-2 pb-6 pb-lg-0">OPTICAL</h3>
+          </div>
+          
+          <!-- Force next columns to break to new line -->
+          <div class="w-100 d-lg-none"></div> 
 
+          <div class="col-12 col-sm-6 col-lg-4">
+            <img class="img-fluid" src="/assets/images/home-section3-2.png" alt="picture">
+            <h3 class="mb-0 pt-2 pb-6 pb-lg-0">SUNGLASSES</h3>
+          </div>
+          
+          <!-- Force next columns to break to new line -->
+          <div class="w-100 d-lg-none"></div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <img class="img-fluid" src="/assets/images/home-section3-3.png" alt="picture">
+            <h3 class="mb-0 pt-2 pb-6 pb-lg-0">FUNCTIONAL</h3>
+          </div>
+          
+          <!-- Force next columns to break to new line -->
+          <div class="w-100 d-lg-none"></div>
+        </div>
+      </div>
+      <!-- Home: section 3 聯名設計鏡框 -->
+      <div style="background: url(/assets/images/index-bg.png) no-repeat center / cover;">
+        <div class="container py-20">
+          <h4 class="fs-xsm-2 mb-12 text-white">聯名設計鏡框</h4>
+          <div class="row row-cols-1 row-cols-lg-2 g-0">
+            <div class="col">
+              <picture>
+                <source srcset="/assets/images/home-section4-1.png" media="(min-width: 576px)" />
+                <img class="img-fluid" src="/assets/images/home-section4-1-sm.png" alt="picture" />
+              </picture>
+              <h3 class="bg-white mb-6 py-2">DOUBLE A+</h3>
+            </div>
+            <div class="col">
+              <picture>
+                <source srcset="/assets/images/home-section4-2.png" media="(min-width: 576px)" />
+                <img class="img-fluid" src="/assets/images/home-section4-2-sm.png" alt="picture" />
+              </picture>
+              <h3 class="bg-white mb-0 py-2">YOUTH</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Home: section 4 顧客推薦 -->
+      <div class="container py-20">
+        <h4 class="fs-xsm-2 mb-12">顧客推薦</h4>
+        <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1">
+          <div class="col mb-6 mb-lg-0">
+            <div class="card h-100 shadow">
+              <img src="/assets/images/home-section5-1.png" alt="photo" class="card-img-top">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Jessy</h6>
+                <p class="card-text mb-18">眼鏡品質優良，下次還會想來這邊購買！</p>
+                <div class="mt-auto fs-10 text-cloud">2021/06/20</div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-6 mb-lg-0">
+            <div class="card h-100 shadow">
+              <img src="/assets/images/home-section5-2.png" alt="photo" class="card-img-top">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">凱倫</h6>
+                <p class="card-text mb-18">做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+                <div class="mt-auto fs-10 text-cloud">2021/04/18</div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-6 mb-md-0">
+            <div class="card h-100 shadow">
+              <img src="/assets/images/home-section5-3.png" alt="photo" class="card-img-top">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">悠悠</h6>
+                <p class="card-text mb-18">謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
+                <div class="mt-auto fs-10 text-cloud">2020/12/25</div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img src="/assets/images/home-section5-4.png" alt="photo" class="card-img-top">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Kyuan</h6>
+                <p class="card-text mb-18">服務很好，品質沒有任何問題，非常喜歡。</p>
+                <div class="mt-auto fs-10 text-cloud">2020/10/31</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Home: section 5 聯絡我們 -->
+      <div class="bg-third">
+        <div class="container py-10">
+          <h4 class="fs-xsm-2">聯絡我們</h4>
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+              <form action="">
+                <p class="my-6">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+                <div class="mb-4">
+                  <label for="home-q1" class="form-lable mb-2">姓名</label>
+                  <input 
+                    id="home-q1" 
+                    type="text" 
+                    style="border-color:black" 
+                    class="form-control rounded-0 bg-third" 
+                    aria-describedby="name" 
+                    placeholder="陳小明">
+                </div>
+                <div class="mb-4">
+                  <label for="home-q2" class="form-lable mb-2">聯絡電話</label>
+                  <input 
+                    id="home-q2" 
+                    type="text" 
+                    style="border-color:black" 
+                    class="form-control rounded-0 bg-third" 
+                    aria-describedby="phone number" 
+                    placeholder="0912-345-678">
+                </div>
+                <div class="mb-4">
+                  <label for="home-q3" class="form-lable mb-2">電子郵件</label>
+                  <input 
+                    id="home-q3" 
+                    type="text" 
+                    style="border-color:black" 
+                    class="form-control rounded-0 bg-third" 
+                    aria-describedby="email" 
+                    placeholder="example@email.com">
+                </div>
+                <div class="mb-4">
+                  <label for="home-q4" class="form-lable mb-2">意見反應</label>
+                  <textarea 
+                    id="home-q4" 
+                    style="border-color:black" 
+                    class="form-control rounded-0 bg-third" 
+                    aria-describedby="comment" 
+                    style="height: 100px" 
+                    placeholder="請輸入您的意見">
+                  </textarea>
+                </div>
+                <div class="mb-4 form-check">
+                  <input 
+                    id="home-q5"
+                    type="checkbox" 
+                    class="form-check-input bg-third rounded-0" 
+                    style="border:solid 2px black;color:black;cursor:pointer;"
+                    aria-describedby="consent">
+                  <label class="form-check-label" for="home-q5">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 py-4 rounded-0">確認送出</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>

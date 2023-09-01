@@ -1,36 +1,21 @@
-// font-family
-$font-family-sans-serif: 'Noto Sans TC', Roboto, sans-serif;
-
-// colors
 $primary:       #AA0601; // red-normal
 $secondary:     #650300; // red-dark
 $third:         #FBF2F2; // red-light
+$cloud:         #707070; // gray
+$dark:          #000000; // dark
 
 $theme-colors: (
   "primary":    $primary,
   "secondary":  $secondary,
   "third":      $third,
-  "fff":        #fff,
+  "cloud":      $cloud,
+  "dark":       $dark,
 );
 
-// font-size
-$font-sizes: (
-  1:   64px,
-  2:   48px,
-  3:   42px,
-  4:   36px,
-  5:   32px,
-  6:   24px,
-  7:   20px,
-  8:   18px,
-  9:   16px,
-  10:  14px,
-  11:  12px,
-);
+$font-family-sans-serif: 'Noto Sans TC', Roboto, sans-serif;
 
-// links
-$link-color:      #fff;
+$link-color:      $dark;
 $link-decoration: none;
 
 /* 有 prefix 的 variable 要怎麼設定？ */
-.nav-link:hover{ color: #fff !important;} 
+// .nav-link:hover{ color: #fff !important;} 

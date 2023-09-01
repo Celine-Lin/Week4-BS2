@@ -1,5 +1,18 @@
-$spacer: 1rem;
+$font-sizes: (
+  1:   64px,
+  2:   48px,
+  3:   42px,
+  4:   36px,
+  5:   32px,
+  6:   24px,
+  7:   20px,
+  8:   18px,
+  9:   16px,
+  10:  14px,
+  11:  12px,
+);
 
+$spacer: 1rem;
 $spacers: (
   0:  0,
   1:  $spacer * 0.25,  // 4
@@ -18,6 +31,18 @@ $spacers: (
   18: $spacer * 4.5,   // 72
   20: $spacer * 5,     // 80
   30: $spacer * 7.5,    // 120
-  31: 296px,
+  31: 144px,
+  32: 296px,
 );
+
+$grid-gutter-width: 1.5rem;
+$gutters: (
+  0: 0,
+  1: $spacer * .25,   // 4
+  2: $spacer * .5,    // 8
+  3: $spacer,         // 16
+  4: $spacer * 1.5,   // 24
+  5: $spacer * 3,     // 48
+);
+
 

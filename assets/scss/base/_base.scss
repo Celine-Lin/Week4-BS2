@@ -10,3 +10,34 @@ h1 a {
     overflow: hidden;
     white-space: nowrap;
 }
+
+h3{
+    font-weight: 900 !important;
+    color: $primary;
+    text-align: center;
+    font-style: italic;
+    font-size: 48px !important;
+}
+
+h4{
+    font-weight: 700 !important;
+    color: $secondary;
+    text-align: center;
+}
+
+h5{
+    font-weight: 700 !important;
+    font-size: 24px !important;
+}
+
+ul, li{
+    list-style: none;
+}
+
+footer a{
+    display: block;
+    &:hover{
+        transform: translate(-3px, -3px) !important;
+        transition-duration: 0.3s !important;
+    }
+}

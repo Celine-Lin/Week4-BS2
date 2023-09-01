@@ -1,25 +1,18 @@
-/* Bootstrap */ 
-
-// 1. Functions
-@import "../../node_modules/bootstrap/scss/functions"; 
-
-// 2. 自定義 Variables
-@import "./utils/variables";
-@import "./utils/map";
-@import "./base/base";
-
-// 3. 原始預設 Variables
-@import "../../node_modules/bootstrap/scss/variables";
-
-/* Google Font & Icon */ 
+// google font & icons
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Material+Icons+Outlined');
-@import url('https://fonts.googleapis.com/css2?family=Material+Icons');
 
-/* Layout */ 
+// Bootstrap
+@import "../../node_modules/bootstrap/scss/functions"; 
+
+@import "./utils/variables"; //自訂變數
+@import "./utils/map"; //自訂間距
+@import "./base/base"; //全站設定
+
+@import "../../node_modules/bootstrap/scss/variables"; //原始變數
+
 @import './layout/footer.scss';
 
-/* Pages */
-@import './pages/index.scss';
+@import "./utils/breakpoints"; //自訂斷點
 
 @import "../../node_modules/bootstrap";

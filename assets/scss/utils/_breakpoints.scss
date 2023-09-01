@@ -1,0 +1,54 @@
+@media(min-width: 375px){
+    .fs-xsm-2{
+        font-size: 48px !important;
+    }
+    .fs-sm-3{
+        font-size: 42px !important;
+    }
+    .fs-sm-5{
+        font-size: 32px !important;
+    }
+}
+
+@media(min-width: 576px){
+    .social-icons{
+        width: 40px;
+        height: 40px;
+    }
+    .fs-sm-2{
+        font-size: 48px !important;
+    }
+    .fs-sm-4{
+        font-size: 36px !important;
+    }
+    .fs-sm-6{
+        font-size: 24px !important;
+    }
+}
+
+@media(min-width: 768px){
+    header{
+        background: url(/assets/images/home-header-sm.png) center/cover !important;
+    }
+    .fs-md-1{
+        font-size: 64px !important; 
+    }
+    .fs-md-4{
+        font-size: 36px !important;
+    }
+}
+
+@media(min-width: 992px){
+    .fs-lg-2{
+        font-size: 48px !important;
+    }
+    .fs-lg-5{
+        font-size: 32px !important;
+    }
+    
+    .social-icons{
+        width: 48px;
+        height: 48px;
+    }
+}
+
